@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Godwin Wisdom">
+    <title>Age Calculator</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    
+    <div class="container">
+        <div class="first-col">
+            <h1>My Age Calculator</h1>
+            <p>Please input correct details for best result.</p>
+        </div>
+
+        <div class="second-col">
+            <div class="flex-form">
+                <label >Full Name:</label>
+                <input type="text" id="full-name">
+            </div>
+            <div class="flex-form">
+                <label >Date of Birth:</label>
+                <input type="date" id="birthdate">
+            </div>
+            <div class="flex-form">
+                <label >Current Date:</label>
+                <input type="date" id="currentdate">
+            </div>
+
+            <div class="flex-form flex-btn">
+                <button id="calculate-age">CALCULATE</button>
+                <button id="clear-btn">CLEAR</button>
+            </div>
+        </div>
+
+        <div class="third-col">
+            <div id="greetings"></div>
+            <div id="result"></div>
+        </div>
+
+        <div class="author"><a href="https://www.linkedin.com/in/godwin-wisdom/">&copy; Godwin Wisdom || 2023</a></div>
+    </div> 
+
+
+    <script src="app.js"></script>
+</body>
+</html>
